@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8baaf8a6-d355-4cc2-af51-f6c66ab1258e" name="Default Changelist" comment="" />
+    <list default="true" id="8baaf8a6-d355-4cc2-af51-f6c66ab1258e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,8 +34,15 @@
     <expand />
     <select />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectId" id="1Uk0xq6meeBquIvAPZYjrAm6q2f" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -43,7 +59,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="PHP Script.Router.php">
     <configuration name="Router.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/core/Router.php">
@@ -87,6 +103,11 @@
       <workItem from="1575975823185" duration="9775000" />
       <workItem from="1576151943140" duration="3841000" />
       <workItem from="1576334915775" duration="16654000" />
+      <workItem from="1576408538937" duration="973000" />
+      <workItem from="1576409648588" duration="145000" />
+      <workItem from="1576409882659" duration="3206000" />
+      <workItem from="1576414207708" duration="2728000" />
+      <workItem from="1576417096293" duration="13475000" />
     </task>
     <servers />
   </component>
@@ -130,18 +151,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576339903447" />
-    <state x="1024" y="369" key="NewPhpFileDialog" timestamp="1576349319872">
+    <state x="686" y="318" key="NewPhpClassDialog" timestamp="1576409982302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1024" y="369" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576349319872" />
-    <state x="711" y="136" key="SettingsEditor" timestamp="1575887465706">
+    <state x="686" y="318" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576409982302" />
+    <state x="1024" y="369" key="NewPhpFileDialog" timestamp="1576408707735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="711" y="136" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575887465706" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576334914698">
+    <state x="1024" y="369" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576408707735" />
+    <state x="711" y="136" key="SettingsEditor" timestamp="1576416858943">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576334914698" />
+    <state x="711" y="136" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576416858943" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576417099730">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576417099730" />
+    <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576415792527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576415792527" />
     <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1576339886162">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
