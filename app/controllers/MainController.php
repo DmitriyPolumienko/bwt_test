@@ -8,9 +8,11 @@ class MainController extends Controller
 {
     public function indexAction()
     {
-        
-
-        $this->view->render('Main page');
+        $result = $this->model->getWeather();
+        $vars =[
+            'weather'=>$result,
+        ];
+        $this->view->render('Main page',$vars);
     }
 
 }

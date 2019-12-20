@@ -32,6 +32,7 @@ class View
          }
  }
 
+
  public static function errorCode($code)
  {
      http_response_code($code);
@@ -39,9 +40,16 @@ class View
      exit();
  }
 
+
  public function redirect($url)
  {
-     header('location: '.$url);
+     header('location: /'.$url);
      exit();
+ }
+
+
+ public function message($status,$message)
+ {
+     exit(json_encode(['status'=>$status,'message'=>$message]));
  }
 }

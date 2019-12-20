@@ -1,43 +1,47 @@
 <?php
 
 namespace app\lib;
-
+use PDO;
 
 class Db {
 
     protected $db;
 
-    public function __construct()
-    {
+    public function __construct() {
         $config = require_once 'app/config/db.php';
-
-        $this->db =  mysqli_connect($config['host'],$config['user'],$config['password'],$config['name']);
-
+        $this->db = new PDO('mysql:host='.$config['host'].';dbname='.$config['name'].'', $config['user'], $config['password']);
     }
 
-    public function query($sql)
-    {
-        return $this->db->query($sql);
-    }
+    public function query($sql, $params = []) {
 
-
-    public function row($sql)
-    {
-        $result = $this->query($sql);
-        return $result->fetch_all();
-    }
-
-
-    public function column($sql)
-    {
-        $res = $this->query($sql);
-        foreach ($res as $key=>$val)
-        {
-            foreach ($val as $key2=> $value)
-            {
-                return $value;
+        $stmt = $this->db->prepare($sql);
+        if (!empty($params)) {
+            foreach ($params as $key => $val) {
+                if (is_int($val)) {
+                    $type = PDO::PARAM_INT;
+                } else {
+                    $type = PDO::PARAM_STR;
+                }
+                $stmt->bindValue(':'.$key, $val, $type);
             }
         }
+        $stmt->execute();
+        return $stmt;
+    }
+
+    public function row($sql, $params = []) {
+        $result = $this->query($sql, $params);
+        return $result->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function column($sql, $params = []) {
+        $result = $this->query($sql, $params);
+        return $result->fetchColumn();
 
     }
+
+    public function lastInsertId() {
+        return $this->db->lastInsertId();
+    }
+
 }

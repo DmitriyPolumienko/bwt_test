@@ -2,13 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8baaf8a6-d355-4cc2-af51-f6c66ab1258e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/config/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/acl/account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/acl/feedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/acl/main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/acl/weather.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/models/Account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/feedback/send.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/feedback/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AccountController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/View.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/account/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/account/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/account/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/account/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +73,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RunManager" selected="PHP Script.Router.php">
     <configuration name="Router.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/core/Router.php">
@@ -108,6 +122,14 @@
       <workItem from="1576409882659" duration="3206000" />
       <workItem from="1576414207708" duration="2728000" />
       <workItem from="1576417096293" duration="13475000" />
+      <workItem from="1576503712501" duration="10286000" />
+      <workItem from="1576586962366" duration="5182000" />
+      <workItem from="1576662290505" duration="20000" />
+      <workItem from="1576694743259" duration="3401000" />
+      <workItem from="1576755190156" duration="8119000" />
+      <workItem from="1576763922789" duration="756000" />
+      <workItem from="1576833658512" duration="17438000" />
+      <workItem from="1576853388851" duration="19000" />
     </task>
     <servers />
   </component>
@@ -115,6 +137,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#SQL_Dialects" timestamp="1576505680712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1576505680712" />
     <state x="714" y="160" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576336397157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -155,18 +181,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="686" y="318" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576409982302" />
-    <state x="1024" y="369" key="NewPhpFileDialog" timestamp="1576408707735">
+    <state x="1024" y="369" key="NewPhpFileDialog" timestamp="1576851878077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1024" y="369" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576408707735" />
-    <state x="711" y="136" key="SettingsEditor" timestamp="1576416858943">
+    <state x="1024" y="369" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576851878077" />
+    <state x="711" y="136" key="SettingsEditor" timestamp="1576504506143">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="711" y="136" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576416858943" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576417099730">
+    <state x="711" y="136" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576504506143" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576853389133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576417099730" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576853389133" />
     <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576415792527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -175,9 +201,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576339886162" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1575981446013">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1576758885303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575981446013" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576758885303" />
   </component>
 </project>
