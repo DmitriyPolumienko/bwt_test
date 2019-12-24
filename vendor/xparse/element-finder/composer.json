@@ -1,0 +1,46 @@
+{
+  "name": "xparse/element-finder",
+  "description": "",
+  "keywords": [
+    "xpath",
+    "parser",
+    "dom"
+  ],
+  "homepage": "https://github.com/xparse/ElementFinder",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Shcherbak",
+      "email": "dev@funivan.com",
+      "homepage": "http://funivan.com/",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "xparse/expression-translator": "0.0.*",
+    "ext-libxml": "*",
+    "ext-dom": "*"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^2.7",
+    "phpunit/phpunit": "^7.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Xparse\\ElementFinder\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Test\\Xparse\\ElementFinder\\": "tests"
+    }
+  },
+  "config": {
+    "platform": {
+      "php": "7.1"
+    },
+    "optimize-autoloader": true,
+    "sort-packages": true
+  }
+}
