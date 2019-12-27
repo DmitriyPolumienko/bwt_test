@@ -5,8 +5,9 @@ use app\core\Controller;
 
 class AccountController extends Controller
 {
-
-    public function registerAction() {
+//Account Registration
+    public function registerAction()
+    {
 
         if (!empty($_POST)) {
 
@@ -28,8 +29,9 @@ class AccountController extends Controller
         }
         $this->view->render('Регистрация');
     }
-
-    public function loginAction() {
+//Account login
+    public function loginAction()
+    {
 
         if (!empty($_POST)) {
 
@@ -46,6 +48,12 @@ class AccountController extends Controller
 
         }
         $this->view->render('Регистрация');
+    }
+//Account logout
+    public function logoutAction()
+    {
+        unset($_SESSION['account']);
+        $this->view->redirect('account/login');
     }
 
 

@@ -2,34 +2,110 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8baaf8a6-d355-4cc2-af51-f6c66ab1258e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/acl/account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/acl/feedback.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/acl/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/acl/weather.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/feedback/send.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/feedback/show.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/brands.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/brands.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/regular.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/solid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/solid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/svg-with-js.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/svg-with-js.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/v4-shims.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/v4-shims.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/brands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/brands.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/conflict-detection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/conflict-detection.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/fontawesome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/fontawesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/regular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/regular.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/solid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/solid.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/v4-shims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/v4-shims.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/acl/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/acl/main.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/FeedbackController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/FeedbackController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/Model.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Model.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/View.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/View.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/htmlsql.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/phpQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/snoopy.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Feedback.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Feedback.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Main.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/phpQuery.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/account/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/account/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/account/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/account/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/errors/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/errors/404.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/feedback/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/feedback/send.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/feedback/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/feedback/show.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/default.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/default.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htmlsql.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpQuery-onefile.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpQuery.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php_query.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpinf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/snoopy.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/htmlsql.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/snoopy.class.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -48,11 +124,33 @@
     <expand />
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/sabre/xml" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/sabre/uri" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/sunra/php-simple-html-dom-parser" />
+      <path value="$PROJECT_DIR$/vendor/xparse/element-finder" />
+      <path value="$PROJECT_DIR$/vendor/xparse/expression-translator" />
+      <path value="$PROJECT_DIR$/vendor/krok/phpquery" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1Uk0xq6meeBquIvAPZYjrAm6q2f" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,6 +161,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -73,7 +173,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RunManager" selected="PHP Script.Router.php">
     <configuration name="Router.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/core/Router.php">
@@ -130,13 +230,29 @@
       <workItem from="1576763922789" duration="756000" />
       <workItem from="1576833658512" duration="17438000" />
       <workItem from="1576853388851" duration="19000" />
+      <workItem from="1576962117447" duration="1979000" />
+      <workItem from="1576965751770" duration="2330000" />
+      <workItem from="1576968102090" duration="1991000" />
+      <workItem from="1577038090730" duration="10017000" />
+      <workItem from="1577131475423" duration="6592000" />
+      <workItem from="1577185163079" duration="25421000" />
+      <workItem from="1577230198536" duration="227000" />
+      <workItem from="1577318852945" duration="5000" />
+      <workItem from="1577356732480" duration="32903000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="790" y="148" key="#CLI_Interpreters" timestamp="1576963620468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="148" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1576963620468" />
     <state x="552" y="178" key="#SQL_Dialects" timestamp="1576505680712">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,22 +261,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="160" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576336397157" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1576339903447">
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1577356841038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576339903447" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1576339903446">
+    <state x="690" y="274" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577356841038" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1576964089468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576339903446" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1576339903446">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1576964089468" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1576964089468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576339903446" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1576339903447">
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1576964089468" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1576964089468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576339903447" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1576964089468" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1576964089468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576964089468" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1576339903447">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -177,22 +297,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1576339903447" />
-    <state x="686" y="318" key="NewPhpClassDialog" timestamp="1576409982302">
+    <state x="686" y="318" key="NewPhpClassDialog" timestamp="1577401325038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="686" y="318" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576409982302" />
-    <state x="1024" y="369" key="NewPhpFileDialog" timestamp="1576851878077">
+    <state x="686" y="318" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577401325038" />
+    <state x="1024" y="369" key="NewPhpFileDialog" timestamp="1577199934203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1024" y="369" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576851878077" />
-    <state x="711" y="136" key="SettingsEditor" timestamp="1576504506143">
+    <state x="1024" y="369" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577199934203" />
+    <state x="711" y="136" key="SettingsEditor" timestamp="1576963621384">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="711" y="136" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576504506143" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1576853389133">
+    <state x="711" y="136" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576963621384" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1577225147352">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576853389133" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1577225147352" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577356746602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577356746602" />
     <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576415792527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,9 +325,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="0" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576339886162" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1576758885303">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1577391321285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1576758885303" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1577391321285" />
   </component>
 </project>

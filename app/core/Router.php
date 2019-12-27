@@ -47,6 +47,8 @@ class Router
 
     public function run()
     {
+
+
      if ($this->match())
          {
              $path = 'app\controllers\\'.ucfirst($this->params['controller'].'Controller');
@@ -57,6 +59,7 @@ class Router
                  {
                      $controller = new $path($this->params); // instance of class
                      $controller -> $action();
+
                  }
                  else
                      {

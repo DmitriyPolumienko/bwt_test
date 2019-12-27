@@ -21,6 +21,14 @@ class Account extends Model{
                 'pattern' => '#^[a-z0-9]{3,15}$#',
                 'message' => 'Password is incorrect (Only latin chars (Size:5-20))',
             ],
+            'name' => [
+                'pattern' => '#^[A-Za-z0-9]{2,25}$#',
+                'message' => 'Name should be 2-25 chars',
+                ],
+            'feedback' => [
+                'pattern' => '#^[A-Za-z0-9]{3,250}$#',
+                'message' => 'Feedback should be 3-250 chars',
+                ],
         ];
 
 
