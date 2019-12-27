@@ -2,73 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8baaf8a6-d355-4cc2-af51-f6c66ab1258e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/all.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/brands.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/brands.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/fontawesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/fontawesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/regular.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/regular.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/solid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/solid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/svg-with-js.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/svg-with-js.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/v4-shims.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/css/v4-shims.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-brands-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-regular-400.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/fonts/fa-solid-900.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/all.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/brands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/brands.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/conflict-detection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/conflict-detection.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/fontawesome.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/fontawesome.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/regular.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/regular.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/solid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/solid.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/v4-shims.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/bootstrap/js/v4-shims.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/acl/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/acl/main.php" afterDir="false" />
@@ -95,6 +28,9 @@
       <change beforePath="$PROJECT_DIR$/phpQuery.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/php_query.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/phpinf.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/img/logo (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bootstrap/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/bootstrap/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snoopy.class.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/text/htmlsql.class.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/text/snoopy.class.php" beforeDir="false" />
@@ -239,6 +175,7 @@
       <workItem from="1577230198536" duration="227000" />
       <workItem from="1577318852945" duration="5000" />
       <workItem from="1577356732480" duration="32903000" />
+      <workItem from="1577409276175" duration="176000" />
     </task>
     <servers />
   </component>
@@ -313,10 +250,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1920.1040@0.0.1920.1040" timestamp="1577225147352" />
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577356746602">
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1577409449580">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577356746602" />
+    <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577409449580" />
     <state x="767" y="431" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576415792527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
