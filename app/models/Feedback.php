@@ -45,18 +45,18 @@ class Feedback extends Model{
             'text'=> $post['text'],
             'email'=> $post['email'],
         ];
-        $this->db->query('INSERT INTO feeds VALUES (:id,:name,:email,:text)',$params);
+        Db::getInstance()->query('INSERT INTO feeds VALUES (:id,:name,:email,:text)',$params);
     }
 
     public function showFeedback()
     {
-        $show = $this->db->row('SELECT name,feedback FROM feeds');
+        $show = Db::getInstance()->row('SELECT name,feedback FROM feeds');
         $count = (count($show));
         for ($i=0;$i<$count;$i++)
         {
             $list = implode('</br>', $show[$i]);
             echo "<div class = \"weatherDetails\">".$list."</div>";
-            echo '</br>','</br>';
+            echo '</br>';
 
         }
     }

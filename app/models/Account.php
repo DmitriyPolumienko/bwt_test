@@ -48,7 +48,7 @@ class Account extends Model{
         $params = [
           'email' => $email,
         ];
-        if ($this->db->column('SELECT id FROM users WHERE email = :email',$params))
+        if (Db::getInstance()->column('SELECT id FROM users WHERE email = :email',$params))
         {
             $this->error = 'This email is already used(acc)';
             return false;
@@ -62,7 +62,7 @@ class Account extends Model{
         $params = [
             'login' => $login,
         ];
-        if ($this->db->column('SELECT id FROM users WHERE login = :login',$params))
+        if (Db::getInstance()->column('SELECT id FROM users WHERE login = :login',$params))
         {
             $this->error = 'This login is already used(acc)';
             return false;
@@ -81,14 +81,14 @@ class Account extends Model{
             'gend'=> $post['gend'],
             'password'=> password_hash($post['password'], PASSWORD_BCRYPT),
         ];
-        $this->db->query('INSERT INTO users VALUES (:id, :login, :email, :name, :surname, :gend, :password)',$params);
+        Db::getInstance()->query('INSERT INTO users VALUES (:id, :login, :email, :name, :surname, :gend, :password)',$params);
     }
 
     public function checkData($login, $password) {
         $params = [
             'login' => $login,
         ];
-        $hash = $this->db->column('SELECT password FROM users WHERE login = :login', $params);
+        $hash = Db::getInstance()->column('SELECT password FROM users WHERE login = :login', $params);
         if (password_verify($password, $hash))
         {
 
@@ -102,7 +102,7 @@ class Account extends Model{
         $params = [
             'login' => $login,
         ];
-        $data = $this->db->row('SELECT * FROM users WHERE login = :login', $params);
+        $data = Db::getInstance()->row('SELECT * FROM users WHERE login = :login', $params);
         $_SESSION['account'] = $data[0];
     }
 }
